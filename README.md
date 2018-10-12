@@ -58,6 +58,11 @@ jenv add /usr/local/Cellar/adoptopenjdk-openjdk8/jdk8u172-b11/
 
 The downside is, you have to install these JDKs yourself, but with Homebrew and the above OpenJDKs that's fine.
 
+Switch JVMs on command-line (for that directory) using this command:
+```
+jenv local 11
+```
+
 ### Jabba
 [Jabba](https://github.com/shyiko/jabba) supports installation of a list of Java distributions and even from custom URLs.
 It can be used in MacOS, Linux, Docker containers and Windows 10 Powershell.
