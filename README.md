@@ -18,7 +18,7 @@ For openjdk11 use:
 brew cask install adoptopenjdk
 ```
 
-For previous versions, use this deprecated cask:
+Or use this cask (up to JDK12 as of Jne 2019):
 Use the cask for AdoptOpenJDK from [this](https://github.com/AdoptOpenJDK/homebrew-openjdk) Github project.
 
 ```
@@ -27,9 +27,11 @@ brew install <version>
 ```
 
 The different versions available are:
-- adoptopenjdk-openjdk8
-- adoptopenjdk-openjdk9
-- adoptopenjdk-openjdk10
+- adoptopenjdk8
+- adoptopenjdk9
+- adoptopenjdk10
+- adoptopenjdk11
+- adoptopenjdk12
 
 Source: reply by [George Adams](https://discourse.brew.sh/u/gdams) on [this](https://discourse.brew.sh/t/how-to-install-openjdk-with-brew/712/3) topic.
 
